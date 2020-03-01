@@ -25,6 +25,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+#Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000
