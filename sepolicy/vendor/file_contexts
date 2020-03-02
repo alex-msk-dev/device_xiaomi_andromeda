@@ -9,3 +9,7 @@
 # Xiaomi thermal daemon
 /vendor/bin/mi_thermald		u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?          u:object_r:thermal_data_file:s0
+
+# Label
+/bt_firmware(/.*)?       u:object_r:bt_firmware_file:s0
+/dsp(/.*)?          u:object_r:adsprpcd_file:s0
