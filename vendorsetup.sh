@@ -1,0 +1,2 @@
+add_lunch_combo lineage_andromeda-userdebug
+add_lunch_combo lineage_andromeda-user
