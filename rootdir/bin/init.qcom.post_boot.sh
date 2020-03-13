@@ -4551,3 +4551,11 @@ fi
 misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
 real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
+
+# GPay hack
+if [ -w /data/data/com.google.android.gms/databases/dg.db ]; then
+    rm -rf /data/data/com.google.android.gms/app_dg_cache/*
+    sqlite3 -batch /data/data/com.google.android.gms/databases/android_pay "update Wallets set fails_attestation='0'"
+    sqlite3 -batch /data/data/com.google.android.gms/databases/dg.db "update main set c=0 where a like '%attest%'"
+    chmod 440 /data/data/com.google.android.gms/databases/dg.db
+fi
