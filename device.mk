@@ -111,6 +111,13 @@ PRODUCT_PACKAGES += \
 # Exclude sensor from InputManager
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/excluded-input-devices.xml:system/etc/excluded-input-devices.xml \
+	
+#GoogleDialer
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/GoogleDialer/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
+    $(LOCAL_PATH)/GoogleDialer/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
+    $(LOCAL_PATH)/GoogleDialer/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml \
+    $(LOCAL_PATH)/GoogleDialer/framework/com.google.android.dialer.support.jar:system/framework/com.google.android.dialer.support.jar
 
 # GPS
 PRODUCT_COPY_FILES += \
