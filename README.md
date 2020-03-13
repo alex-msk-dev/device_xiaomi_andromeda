@@ -20,5 +20,3 @@ Storage | 64/128 GB
 Battery | Non-removable Li-Ion 3800 mAh battery
 Display | 1080 x 2340 pixels, 18:9 ratio, 6.39 inches, Super AMOLED (~403 ppi density)
 Camera  | Dual 12 MP, 4-axis OIS, dual PDAF, LED flash
-# device_xiaomi_andromeda
-# device_xiaomi_andromeda
