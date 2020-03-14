@@ -85,7 +85,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    Snap
+    MiuiCamera
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/MiuiCamera/etc/jason.xml:system/etc/device_features/andromeda.xml \
+    $(LOCAL_PATH)/MiuiCamera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
 
 # Context Hub
 PRODUCT_PACKAGES += \
