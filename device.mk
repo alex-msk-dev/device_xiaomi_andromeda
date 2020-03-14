@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
     MiuiCamera
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/MiuiCamera/etc/jason.xml:system/etc/device_features/andromeda.xml \
+    $(LOCAL_PATH)/MiuiCamera/etc/andromeda.xml:system/etc/device_features/andromeda.xml \
     $(LOCAL_PATH)/MiuiCamera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
 
 # Context Hub
@@ -181,15 +181,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
-    
-#Lawnchair
-PRODUCT_PACKAGES += \
-    Lawnchair
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
-    $(LOCAL_PATH)/prebuilts/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
-
 
 # Lights
 PRODUCT_PACKAGES += \
