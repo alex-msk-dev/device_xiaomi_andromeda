@@ -7,6 +7,9 @@
 # Inherit vendor
 $(call inherit-product, vendor/xiaomi/andromeda/andromeda-vendor.mk)
 
+# Apex Google
+$(call inherit-product, vendor/google/customization/config.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080

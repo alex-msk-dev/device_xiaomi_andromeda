@@ -53,6 +53,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/andromeda
 TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := andromeda
 
@@ -142,8 +145,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_andromeda
-TARGET_RECOVERY_DEVICE_MODULES := libinit_andromeda
+#TARGET_INIT_VENDOR_LIB := libinit_andromeda
+#TARGET_RECOVERY_DEVICE_MODULES := libinit_andromeda
 
 # Media
 TARGET_USES_ION := true
@@ -197,7 +200,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
-
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # System properties
