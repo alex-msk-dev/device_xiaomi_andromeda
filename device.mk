@@ -8,7 +8,10 @@
 $(call inherit-product, vendor/xiaomi/andromeda/andromeda-vendor.mk)
 
 # Apex Google
-$(call inherit-product, vendor/google/customization/config.mk)
+#$(call inherit-product, vendor/google/customization/config.mk)
+
+# Enable updating of APEXes
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
