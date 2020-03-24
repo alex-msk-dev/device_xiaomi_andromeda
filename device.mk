@@ -144,10 +144,18 @@ PRODUCT_COPY_FILES += \
 
 # Graphics
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.2-service \
+    android.hardware.graphics.composer@2.3-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    libgui_vendor
+    vendor.qti.hardware.display.allocator-service
+
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@2.0-impl-qti-display
+
+PRODUCT_PACKAGES += \
+    gralloc.msmnile \
+    hwcomposer.msmnile \
+    memtrack.msmnile
 
 # IDC
 PRODUCT_COPY_FILES += \
