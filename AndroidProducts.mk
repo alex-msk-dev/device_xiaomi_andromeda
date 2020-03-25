@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_andromeda.mk
+    $(LOCAL_DIR)/aosp_andromeda.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_andromeda-user \
-    lineage_andromeda-userdebug \
-    lineage_andromeda-eng
+    aosp_andromeda-user \
+    aosp_andromeda-userdebug \
+    aosp_andromeda-eng

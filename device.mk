@@ -23,8 +23,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
@@ -98,12 +97,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    MiuiCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/MiuiCamera/etc/andromeda.xml:system/etc/device_features/andromeda.xml \
-    $(LOCAL_PATH)/MiuiCamera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
+    android.hardware.camera.provider@2.4-service_64
 
 # Context Hub
 PRODUCT_PACKAGES += \
@@ -112,7 +106,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    DeviceSettings \
+#    DeviceSettings \
     XiaomiParts
 
 # DRM
@@ -124,13 +118,6 @@ PRODUCT_PACKAGES += \
 # Exclude sensor from InputManager
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/excluded-input-devices.xml:system/etc/excluded-input-devices.xml \
-	
-#GoogleDialer
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/GoogleDialer/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
-    $(LOCAL_PATH)/GoogleDialer/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
-    $(LOCAL_PATH)/GoogleDialer/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml \
-    $(LOCAL_PATH)/GoogleDialer/framework/com.google.android.dialer.support.jar:system/framework/com.google.android.dialer.support.jar
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -213,10 +200,6 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sm8150
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
