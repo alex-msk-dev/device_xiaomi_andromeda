@@ -9,5 +9,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_andromeda-user \
-    aosp_andromeda-userdebug \
-    aosp_andromeda-eng
+    aosp_andromeda-userdebug
