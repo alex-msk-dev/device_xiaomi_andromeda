@@ -98,12 +98,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    MiuiCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/MiuiCamera/etc/andromeda.xml:system/etc/device_features/andromeda.xml \
-    $(LOCAL_PATH)/MiuiCamera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
+    android.hardware.camera.provider@2.4-service_64
 
 # Codec2
 PRODUCT_PACKAGES += \
