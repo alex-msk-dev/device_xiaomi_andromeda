@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2020 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP device info settings -->
+    <string name="aosip_version">Версия AOSiP</string>
+    <string name="aosip_version_default">Неизвестно</string>
+    <!-- AOSiP custom settings main -->
+    <string name="header_category_personalization">Настройки интерфейса</string>
+    <string name="nest_title">Уголок Магии</string>
+    <string name="aosip_title">Расширенные Настройки</string>
+    <string name="owlsnest_settings_title">Категории</string>
+    <!-- General strings -->
+    <string name="ok">ОК</string>
+    <string name="reset">Сбросить</string>
+    <string name="enabled">Включено</string>
+    <string name="add">Добавить</string>
+    <string name="choose_app">Выберите приложение</string>
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">Необходима перезагрузка системного интерфейса</string>
+    <string name="systemui_restart_message">Чтобы все изменения вступили в силу, требуется перезагрузка системного интерфейса. Перезагрузить сейчас?</string>
+    <!--Owlsnest statusbar-->
+    <string name="statusbar_bar_title">Строка состояния</string>
+    <string name="statusbar_bar_summary">Отрегулировать элементы строки состояния</string>
+    <string name="icon_category">Иконки</string>
+    <string name="battery_category">Батарея</string>
+    <!-- Old MobileType Toggle -->
+    <string name="use_old_mobiletype_title">Использовать старый стиль мобильного типа</string>
+    <string name="use_old_mobiletype_summary">Сигнал слияния и значки типов</string>
+    <string name="mobile_data_style_info_title">Изменение вступит в силу при следующем обновлении значка мобильного сигнала.</string>
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Показывать 4G вместо LTE</string>
+    <string name="show_fourg_summary">Заменяет индикаторы строки состояния LTE на 4G</string>
+    <!--Statusbar privacy indicators-->
+    <string name="statusbar_privacy_indicators_title">Индикаторы конфиденциальности</string>
+    <string name="statusbar_privacy_indicators_summary">Показывать индикаторы конфиденциальности в строке состояния</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Значок VoLTE</string>
+    <string name="volte_icon_summary">Показывать значок VoLTE</string>
+    <!-- Kronic logo -->
+    <string name="kronic_logo_title">Логотип Кроника</string>
+    <string name="kronic_logo_summary">Покажите всем, что вы используете AOSiP, когда они видят ваш экран</string>
+    <string name="status_bar_logo_style_title">Пользовательский стиль логотипа</string>
+    <!--Owlsnest Notification-->
+    <string name="notification_title">Уведомление</string>
+    <string name="notification_summary">Отрегулируйте поведение подсветки светодиодов и уведомлений</string>
+    <string name="notification_category">Уведомления</string>
+    <string name="headsup_category">Всплывающие уведомления</string>
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Надоедливые уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Проигрывать звук и вибрацию для уведомлений при включенном экране</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Индикатор батареи</string>
+    <string name="battery_light_enable">Включить</string>
+    <string name="battery_light_allow_on_dnd_title">Индикатор батареи в режиме Не беспокоить</string>
+    <string name="battery_light_low_blinking_title">Световая индикация при низком заряде батареи</string>
+    <string name="battery_light_cat">Цвет индикации при зарядке</string>
+    <string name="battery_light_low_color">Низкий заряд батареи</string>
+    <string name="battery_light_medium_color">Средний заряд батареи</string>
+    <string name="battery_light_full_color">Почти полный заряд батареи</string>
+    <string name="battery_light_reallyfull_color">Полный заряд батареи (100)</string>
+    <!--Owlsnest Quick settings-->
+    <string name="quicksettings_title">Быстрые настройки</string>
+    <string name="quicksettings_summary">Управление быстрыми настройками и раскрытой строкой состояния</string>
+    <string name="expanded_category">Расширенная</string>
+    <string name="brightness_slider_title">Ползунок яркости</string>
+    <string name="tiles_title">Тайлы QS</string>
+    <string name="qs_tile_footer">Чтобы изменить количество строк и столбцов QS и многое другое, используйте кнопку меню из трех точек под разделом редактирования QS в раскрывающемся списке QS</string>
+    <!--Owlsnest navigation-->
+    <string name="navigation_category">Панель навигации</string>
+    <string name="navigation_summary">Настроить стиль и поведение панели навигации</string>
+    <!-- Button brightness -->
+    <string name="button_lights_category">Подсветка</string>
+    <string name="button_backlight_options_category">Параметры подсветки</string>
+    <string name="button_backlight_enable_title">Включить подсветку кнопок</string>
+    <string name="button_link_brightness">Связать с яркостью экрана</string>
+    <string name="button_link_brightness_summary">Яркость подсветки кнопок будет регулироваться в зависимости от яркости экрана</string>
+    <string name="button_manual_brightness">Уровень яркости</string>
+    <string name="button_timeout_title">Длительность подсветки кнопок</string>
+    <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
+    <string name="button_backlight_on_touch_only_summary">Подсвечивать кнопки только при касании, а не всё время. Тайм-аут подсветки влияет на эту функцию.</string>
+    <!--Owlsnest buttons-->
+    <string name="buttons_title">Аппаратные кнопки</string>
+    <string name="buttons_summary">Настройка действий аппаратных кнопок Вашего устройства</string>
+    <string name="powermenu_category">Питание</string>
+    <string name="volume_category">Громкость</string>
+    <!-- Power Menu -->
+    <string name="powermenu_reboot_title">Перезагрузка</string>
+    <string name="powermenu_reboot_summary">Включить или выключить нормальную кнопку перезагрузки системы</string>
+    <string name="powermenu_advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="powermenu_advanced_reboot_summary">Включает расширенную перезагрузку для перезагрузки в режиме восстановления, загрузчика, перезагрузки SystemUI или быстрой перезагрузки</string>
+    <string name="powermenu_screenshot_title">Снимок экрана</string>
+    <string name="powermenu_screenshot_summary">Показывать в меню кнопки питания кнопку для создания скриншотов</string>
+    <string name="powermenu_airplane_title">Режим полета</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_fade">Простое затухание</string>
+    <string name="screen_off_animation_crt">Эффект телевизора</string>
+    <string name="screen_off_animation_scale">Масштабирование</string>
+    <!--Owlsnest recentscreen-->
+    <string name="recent_title">Недавние приложения</string>
+    <string name="recent_summary">Настройка параметров и стиля меню недавних приложений</string>
+    <!--Owlsnest Gestures-->
+    <string name="gesture_category">Жесты</string>
+    <string name="gesture_summary">Действия/настройки, основанные на жестах</string>
+    <!-- Active edge -->
+    <string name="active_edge_title">Активные стороны</string>
+    <string name="active_edge_summary">Продвинутая версия функции Pixel Активные бока</string>
+    <string name="active_edge_actions_title">Действие после Сжатия</string>
+    <string name="active_edge_long_squeeze_actions_title">Действие по долгому сжиманию</string>
+    <string name="active_edge_sensitivity_title">Чувствительность Сжатия</string>
+    <string name="active_edge_wake_title">Разрешить, при выключенном экране</string>
+    <string name="active_edge_wake_summary">Запустить действие, когда экран выключен</string>
+    <string name="active_edge_footer_info">Не все действия Сжатия, функции Активные стороны, имеют функцию включить экран</string>
+    <!--Owlsnest lockscreen-->
+    <string name="lockscreen_title">Экран блокировки</string>
+    <string name="lockscreen_summary">Настройка разметки и опций экрана блокировки</string>
+    <string name="secure_lockscreen">Настройка экрана блокировки</string>
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Фильтр альбома артов на заблокированном экране</string>
+    <string name="lockscreen_cover_filter_none">Ничего</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_tint">В цвет акцента</string>
+    <string name="lockscreen_cover_filter_blur">Размытие</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
+    <string name="lockscreen_cover_filter_tinted_blur">Акцент тонированный и размытый</string>
+    <!-- Media art -->
+    <string name="media_art_title">Обложка альбома</string>
+    <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
+    <!--Owlsnest advanced-->
+    <string name="advanced_title">Расширенные настройки</string>
+    <string name="advanced_summary">Прочие и дополнительные настройки системы</string>
+    <string name="system_category">Настройки системы</string>
+</resources>
