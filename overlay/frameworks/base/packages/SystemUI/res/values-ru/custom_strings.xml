@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2019 ExtendedUI
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="statusbar_items_title">Значки на панели состояния</string>
+
+    <!-- Navbar editor -->
+    <string name="preview">Предварительный просмотр</string>
+    <string name="keycode">Код клавиши</string>
+    <string name="no_home_title">Кнопка "Домой" не найдена</string>
+    <string name="no_home_message">Кнопка "Домой" необходима для управления устройством. Пожалуйста добавьте кнопку \"Домой\" перед сохранением.</string>
+    <string name="clipboard_description">С помощью этой кнопки можно копировать файлы в буфер обмена и извлекать их из него.</string>
+    <string name="keycode_description">С помощью этой кнопки можно добавлять клавиши клавиатуры на панель навигации. При нажатии они эмулируют выбранную клавишу клавиатуры. Сначала следует выбрать эмулируемую клавишу для кнопки, а затем изображение, которое будет отображаться на кнопке.</string>
+    <string name="start">Начало</string>
+    <string name="center">По-центру</string>
+    <string name="end">Конец</string>
+    <string name="space">Разделитель</string>
+    <string name="menu_ime">Меню / Переключение раскладки</string>
+    <string name="select_button">Выберите кнопку для добавления</string>
+    <string name="add_button">Добавить кнопку</string>
+    <string name="save">Сохранить</string>
+    <string name="reset">Сбросить</string>
+    <string name="select_keycode">Выберите клавишу</string>
+    <string name="left">Влево</string>
+    <string name="right">Вправо</string>
+    <string name="navbar_editor_title">Редактор</string>
+    <string name="navbar_editor_summary">Настроить панель навигации</string>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Запрет сна</string>
+    <string name="quick_settings_caffeine_label_off">Выключен</string>
+    <string name="accessibility_quick_settings_caffeine_off">Запрет сна включен</string>
+    <string name="accessibility_quick_settings_caffeine_on">Запрет сна выключен</string>
+
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Заголовки уведомлений</string>
+    <string name="accessibility_quick_settings_heads_up_off">Заголовки отключены</string>
+    <string name="accessibility_quick_settings_heads_up_on">Заголовки включены</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Заголовки отключены</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Заголовки включены</string>
+
+    <!-- Lockscreen tuner -->
+    <string name="lockscreen_default">По умолчанию</string>
+    <string name="lockscreen_hidden">Нет</string>
+
+    <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+    <string name="custom_hint">Проведите от значка для запуска</string>
+
+    <!-- Heads up snooze toast -->
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Peeking notifications are snoozing for 1 minute.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Peeking notifications are snoozing for <xliff:g id="number">%d</xliff:g> minutes.</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time">Быстрая зарядка (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> осталось до полного заряда)</string>
+    <string name="keyguard_plugged_in_dash_charging">Быстрая зарядка</string>
+
+    <!--Screenrecord Tile-->
+    <string name="screenrecorder_title_tile">Запись экрана</string>
+
+    <!-- Screen recorder -->
+    <string name="screenrecord_stopdot_label">Показать точку остановки</string>
+
+    <!-- Power menu item for taking a screenshot [CHAR LIMIT=20]-->
+    <string name="global_action_screenshot_cust">"Скриншот / запись"</string>
+
+    <!-- Name of the volte status bar icon. -->
+    <string name="status_bar_volte">VoLTE</string>
+
+    <!-- Advanced restart menu -->
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">Система</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Рекавери</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Фастбут</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Скачать</string>
+
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Перезагрузка</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Перезагрузка в рекавери</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Перезагрузка в рекавери в фастбут</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Перезапуск скачивания</string>
+
+    <!-- Label for current user in power menu options dialog -->
+    <string name="global_action_current_user">Текущий</string>
+
+    <!-- Sync QS Tile -->
+    <string name="quick_settings_sync_label">Синхронизация</string>
+    <string name="accessibility_quick_settings_sync_off">Синхронизация выключена</string>
+    <string name="accessibility_quick_settings_sync_on">Синхронизация включена</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Синхронизация выключена</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Синхронизация включена</string>
+
+    <!-- QS Config -->
+    <string name="qs_menu_item_columns">Столбцы</string>
+    <string name="qs_menu_item_columns_landscape">Столбцы в ландшафте</string>
+    <string name="qs_menu_item_columns_three">3</string>
+    <string name="qs_menu_item_columns_four">4</string>
+    <string name="qs_menu_item_columns_five">5</string>
+    <string name="qs_menu_item_columns_six">6</string>
+    <string name="qs_menu_item_columns_seven">7</string>
+    <string name="qs_menu_item_columns_eight">8</string>
+    <string name="qs_menu_item_columns_nine">9</string>
+    <string name="qs_menu_item_reset">Сброс</string>
+
+    <string name="usage_data">Использованный</string>
+
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Подключиться к\u2026</string>
+    <string name="vpn_credentials_hint">Пожалуйста, введите свои учетные данные для подключения к <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Имя пользователя</string>
+    <string name="vpn_credentials_password">Пароль</string>
+    <string name="vpn_credentials_dialog_connect">Соединение</string>
+
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">АОД</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Карта передачи данных</string>
+    <string name="qs_data_switch_changed_1">Использование SIM 1 для мобильных данных</string>
+    <string name="qs_data_switch_changed_2">Использование SIM 2 для мобильных данных</string>
+</resources>
