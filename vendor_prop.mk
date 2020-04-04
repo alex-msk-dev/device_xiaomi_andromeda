@@ -69,7 +69,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.dalvik.vm.native.bridge=0 \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
     ro.hardware.keystore_desede=true \
-    ro.hardware.nfc_nci=nqx.default \
     ro.opengles.version=196610 \
     ro.se.type=HCE,UICC \
     ro.sf.lcd_density=440 \
