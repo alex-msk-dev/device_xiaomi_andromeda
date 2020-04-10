@@ -185,6 +185,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.has_wide_color_display=true
 
+# Vo-ip
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.voice.path.for.pcm.voip=true \
+    vendor.audio.feature.compr_voip.enable=true
+
 # Other
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
