@@ -151,15 +151,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
 
-# NFC
-PRODUCT_PROPERTY_OVERRIDES += \	
-    ro.se.type=HCE,UICC
-
 # Offlinelog
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.offlinelog.kernel=false \
     persist.sys.offlinelog.logcat=false
-	
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
@@ -199,4 +195,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown \
     ro.cit.nonrootbuild=true \
     ro.cit.stablebuild=true \
-    ro.control_privapp_permissions=log
+    ro.control_privapp_permissions=log \
+    ro.se.type=HCE,UICC
