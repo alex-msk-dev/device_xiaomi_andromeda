@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from andromeda device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Pixel Experience stuff.
+# Inherit some common CesiumOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
@@ -20,8 +20,11 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 
+# Version
+CUSTOM_BUILD_TYPE := by.alex.msk
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_andromeda
+PRODUCT_NAME := cesium_andromeda
 PRODUCT_DEVICE := andromeda
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 3 5G
