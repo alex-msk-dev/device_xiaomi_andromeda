@@ -23,6 +23,10 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_WIFI_EXT := true
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.titanium.maintainer=alex.msk
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := titanium_andromeda
 PRODUCT_DEVICE := andromeda
