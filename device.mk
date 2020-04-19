@@ -180,9 +180,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     ims-ext-common_system
 
-PRODUCT_BOOT_JARS += \
-    ims-ext-common_system
-
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
