@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2019 TitaniumOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- TitaniumOS -->
+    <string name="titanium_title" translatable="false">TitaniumOS</string>
+    <string name="titanium_about_info">О нас</string>
+    <string name="titanium_about_summary">Наше введение и наша команда</string>
+    <string name="titanium_about_info_summary">TitaniumOS - это пользовательское ПЗУ, основанное на Google Android Open Source Project. Это ПЗУ, сфокусированное на стабильности системы и полезных функциях. Все это без ущерба для чистого опыта Android.</string>
+
+    <!-- TiElements -->
+    <string name="tielements_title" translatable="false">TiElements</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сброс статистики</string>
+    <string name="battery_stats_message">Статистика истории батареи будет сброшена</string>
+
+    <!-- SELinux status -->
+    <string name="selinux_status">Режим SELinux</string>
+    <string name="selinux_status_disabled">Выключен</string>
+    <string name="selinux_status_permissive">Только предупреждение</string>
+    <string name="selinux_status_enforcing">Блокировка</string>
+
+    <!-- TitaniumOS Version -->
+    <string name="titanium_version">Версия TitaniumOS</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой грани телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой грани телефона.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите датчик отпечатков пальцев на левой грани вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите датчик отпечатков пальцев на правой грани вашего устройства.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на передней поверхности вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите датчик отпечатков пальцев на левой грани вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой грани вашего планшета.</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная Зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Использовать интеллектуальную зарядку</string>
+    <string name="smart_charging_level_title">Остановить уровень триггера</string>
+    <string name="smart_charging_resume_level_title">Уровень триггера</string>
+    <string name="smart_charging_reset_stats_title">Сброс статистики батареи</string>
+    <string name="smart_charging_reset_stats_summary">Сброс статистики батареи после достижения определенного пользователем уровня зарядки</string>
+    <string name="smart_charging_footer">Умная Зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN/пароля</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Макет ввода пин-кода</string>
+    <string name="unlock_scramble_pin_layout_summary">Схема шифрования ПИН-кода при разблокировке устройства</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Объем оперативной памяти</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Вращение</string>
+    <string name="display_rotation_disabled">Отключено</string>
+    <string name="display_rotation_unit">Степени</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 степень</string>
+    <string name="display_rotation_90_title">90 степень</string>
+    <string name="display_rotation_180_title">180 степень</string>
+    <string name="display_rotation_270_title">270 степень</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Полно-экранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Заставьте приложения игнорировать пространство вырезов</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Вибрация при зарядке</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Мелодия звонка - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Мелодия звонка - SIM 2</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Минимальное время между звуками уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не более одного раза каждые <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минута</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Температура батареи</string>
+
+     <!-- TitaniumOS OTA -->
+    <string name="titanium_ota_title">Обновление TitaniumOS</string>
+    <string name="titanium_ota_summary">Получить последнюю версию сборки</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Журнал изменений</string>
+    <string name="changelog_summary">Со времени последнего обновления</string>
+    <string name="changelog_error">Невозможно загрузить журнал изменений</string>
+ 
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Подстраивание экрана в зависимости от времени суток и освещения для улучшения читаемости текста и снижения утомляемости глаз</string>
+    <string name="live_display_mode">Режим экрана</string>
+    <string name="live_display_color_temperature_title">Цветовая температура</string>
+    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g>K Ночь: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ночь</string>
+    <string name="live_display_outdoor_mode_title">Автоматический режим для улицы</string>
+    <string name="live_display_outdoor_mode_summary">Автоматическое увеличение яркости и насыщенности при ярком солнечном свете</string>
+    <string name="live_display_low_power_title">Снизить энергопотребление</string>
+    <string name="live_display_low_power_summary">Подстраивать экран для низкого энергопотребления без ухудшения качества</string>
+    <string name="live_display_enhance_color_title">Улучшение цветопередачи</string>
+    <string name="live_display_enhance_color_summary">Улучшить сочность оттенков кожи, пейзажей и других изображений</string>
+    <string name="live_display_color_profile_title">Цветовой профиль</string>
+    <string name="live_display_color_profile_standard_title">Стандартный</string>
+    <string name="live_display_color_profile_standard_summary">Точная цветопередача и яркие белые тона</string>
+    <string name="live_display_color_profile_natural_title">Естественный</string>
+    <string name="live_display_color_profile_natural_summary">Натуральные цвета и оттенки кожи</string>
+    <string name="live_display_color_profile_dynamic_title">Динамический</string>
+    <string name="live_display_color_profile_dynamic_summary">Насыщенные цвета и повышенная контрастность</string>
+    <string name="live_display_color_profile_cinema_title">Кино</string>
+    <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для видео</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономия</string>
+    <string name="live_display_color_profile_astronomy_summary">Темно-красный для уменьшения влияния на ваш сон</string>
+    <string name="live_display_color_profile_photography_title">Фотография</string>
+    <string name="live_display_color_profile_photography_summary">Идеальная цветопередача для фото</string>
+    <string name="live_display_color_profile_basic_title">Базовый</string>
+    <string name="live_display_color_profile_basic_summary">Использовать неоткалиброванный дисплей</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
+    <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
+    <string name="live_display_color_profile_reading_title">Чтение</string>
+    <string name="live_display_color_profile_reading_summary">Теплые цвета для меньшего напряжения глаз</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Цвета, схожие с пространством sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">Цветовое пространство DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Цвета, соответствующие цветовому пространству DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим оттенков серого для долговременного чтения</string>
+    <string name="color_calibration_title">Калибровка цвета</string>
+    <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зеленый</string>
+    <string name="color_blue_title">Синий</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Настройка изображения</string>
+    <string name="picture_adjustment_summary">Настройка оттенка, насыщенности, интенсивности и контрастности</string>
+    <string name="adj_hue_title">Hue</string>
+    <string name="adj_saturation_title">Насыщенность</string>
+    <string name="adj_intensity_title">Интенсивность</string>
+    <string name="adj_contrast_title">Контраст</string>
+
+    <!-- Density category -->
+    <string name="density_category">Параметры плотности</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Закрыть</string>
+
+    <!-- Navigation settings -->
+    <string name="back_height_low_label">Высоко</string>
+    <string name="back_height_high_label">Низко</string>
+    <string name="back_options_dialog_title">Опции</string>
+    <string name="back_height_message">Высота экрана используемая для работы жеста назад</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Показать анимированную стрелку для жеста назад</string>
+
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">Скрыть панель навигации для бесшовных полноэкранных жестов</string>
+
+    <string name="lockscreen_display_title">Отображение экрана блокировки</string>
+
+    <!-- ROM version -->
+    <string name="rom_version">Версия TitaniumOS</string>
+    <string name="rom_version_default">Неизвестно</string>
+    <string name="build_date">Дата сборки</string>
+
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Включите тактильную обратную связь для жеста назад</string>
+
+    <!-- Theme Room -->
+    <string name="themeroom_title">Тематическая комната</string>
+    <string name="themeroom_summary">Тема с градиентным акцентом</string>
+    <string name="accent_color">Выбор акцента</string>
+    <string name="accent_summary">Обще-системный выбор акцентов</string>
+    <string name="gradient_color">Выбор градиента</string>
+    <string name="gradient_summary">Эффект градиента</string>
+
+    <!-- Improvements to Night Light -->
+    <string name="unknown_night_light_time">Unknown - нажмите для обновления</string>
+    <string name="night_display_location_text">В графике от заката до восхода солнца требуются включенные службы определения местоположения, чтобы получить правильное время для нашего местоположения.</string>
+
+    <!-- Xtended maintainer -->
+    <string name="maintainer">Разработчик</string>
+
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">Отладка по сети</string>
+    <string name="adb_over_network_summary">Включить TCP/IP отладку через сетевые интерфейсы (WiFi и USB-сети). Отладка отключится после перезагрузки</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">Когда ADB по сети включен, ваш телефон открыт для вторжений во все подключенные сети, включая сеть передачи данных GSM! Используйте эту функцию только при подключении к доверенным сетям. Вы действительно хотите включить эту функцию?</string>
+    <string name="adb_over_network_warning_title">Разрешить ADB по сети?</string>
+
+    <!-- Control Vibration intensities -->
+    <string name="vibration_preferences">Сила вибрации</string>
+    <string name="summary_vibration_preferences">Изменить интенсивность, паттерн и многое другое</string>
+    <string name="keywords_vibration_preferences">шаблон вибрации, интенсивность вибрации, при звонке, отклик, нажатие, сила вибрации</string>
+    <string name="ringtone_vibration_pattern">Тип вибрации при звонке</string>
+    <string name="vibration_intensity_ringer">Настройка интенсивности вибрации</string>
+    <string name="vibration_intensity_notification">Интенсивность вибрации при уведомлении</string>
+    <string name="vibration_intensity_disabled">Отключено</string>
+    <string name="vibration_intensity_light">Легкое</string>
+    <string name="vibration_intensity_medium">Среднее</string>
+    <string name="vibration_intensity_strong">Сильное</string>
+    <string name="vibration_intensity_custom">Другое</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Wellbeing -->
+    <string name="duration_less_than_one_minute">Менее минуты</string>
+    <string name="screen_time_summary_usage_today">%1$s сегодня</string>
+
+    <!-- Moto Face Unlock -->
+    <string name="security_settings_face_settings_footer_moto">Используйте разблокировку по лицу, чтобы разблокировать устройство. Запомните: Взгляд на устройство может разблокировать его, даже если вы не собирались этого делать. Ваше устройство может быть разблокировано третьими лицами, если он поднесёт его к вашему лицу пока ваши глаза открыты. Ваше устройство может быть разблокировано людьми, похожими на вас, вашими детьми или близнецом.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_moto">Данные, записанные функцией разблокировки с помощью лица будут безвозвратно удалены. После удаления потребуется ввести PIN-код, графический ключ или пароль для разблокировки устройства.</string>
+
+    <!-- Adaptive battery -->
+    <string name="battery_tip_smart_battery_summary_custom">Включить адаптивная батарея</string>
+    <string name="smart_battery_footer_custom">"Чтобы продлить время работы от батареи, функция адаптивная батарея ограничивает фоновые процессы редко используемых приложений. Со временем ваш телефон запоминает, какие приложения вы используете чаще, а какие реже.
+
+Уведомления от приложений, работу которых вы ограничиваете, могут приходить с задержкой."</string>
+    <string name="smart_battery_manager_title_custom">Адаптивное энергопотребление</string>
+    <string name="smart_battery_title_custom">Включить адаптивную батарею</string>
+</resources>
