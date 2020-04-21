@@ -91,7 +91,7 @@
     <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Проведите до снимка экрана</string>
+    <string name="three_finger_gesture">Проведите для снимка экрана</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
 
     <!-- Lock screen cover art -->
@@ -221,7 +221,7 @@
     <string name="swap_navigation_keys_title_summary">Замена и возврат аппаратных ключей</string>
 
     <!-- Volume Rockers -->
-    <string name="volume_title">Рокеры громкости</string>
+    <string name="volume_title">Кнопки громкости</string>
     <string name="volume_summary">Настройка параметров для кнопок регулировки громкости</string>
 
     <!-- Volume Button Music Control -->
@@ -301,7 +301,7 @@
     <string name="screenshot_type_title">Тип снимка экрана</string>
     <string name="screenshot_type_fullscreen">Делать полноэкранные снимки экрана</string>
     <string name="screenshot_type_partial">Перетащите выделенную область в область, которую вы хотите сделать в качестве скриншота</string>
-    <string name="screenshot_type_fullscreen_longshot">Сделать полноэкранный режим с расширенными снимками экрана</string>
+    <string name="screenshot_type_fullscreen_longshot">Сделать полноэкранный скриншот с расширенными режимом экрана</string>
     <string name="screenshot_options_category">Параметры снимка экрана</string>
     <string name="screenshot_options_summary">Настроить атрибуты снимка экрана, такие как время, задержка, тип и т. д.</string>
 
@@ -561,8 +561,8 @@
     <string name="ambient_visualizer_summary">Отображение панелей визуализатора на внешнем дисплее</string>
 
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Панель батарей</string>
-    <string name="battery_bar_summary">Украсить панель батарей</string>
+    <string name="battery_bar_title">Панель батареи</string>
+    <string name="battery_bar_summary">Украсить панель батареи</string>
     <string name="battery_bar_location">Расположение панели аккумулятора</string>
     <string name="battery_bar_color">Цвет панели батарей</string>
     <string name="battery_bar_charging_color">Цвет зарядки батарейного отсека</string>
@@ -621,7 +621,7 @@
     <string name="lockscreen_tuner_title">Иконки экрана блокировки</string>
 
     <!-- Navbar options -->
-    <string name="three_button_nav_bar">3-кнопочные параметры навигации</string>
+    <string name="three_button_nav_bar">3-кнопочная навигация</string>
     <string name="nav_bar_layout">Макет панели навигации</string>
     <string name="navbar_invert_layout_title">Инвертировать макет</string>
     <string name="navbar_invert_layout_summary">Использовать инвертированный макет для кнопок панели навигации</string>
@@ -669,7 +669,7 @@
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Тайм-аут</string>
-    <string name="heads_up_time_out_summary">Уведомления о подсмотре будут отображаться в течение <xliff:g id="number">%d</xliff:g> секунд</string>
+    <string name="heads_up_time_out_summary">Уведомления о просмотре будут отображаться в течение <xliff:g id="number">%d</xliff:g> секунд</string>
     <string name="heads_up_time_out_2sec">2 секунды</string>
     <string name="heads_up_time_out_4sec">4 секунды</string>
     <string name="heads_up_time_out_5sec">5 секунд</string>
@@ -679,7 +679,7 @@
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Таймер повтора</string>
-    <string name="Heads_up_snooze_summary_one_minute">Проведите пальцем вверх на уведомления о просмотре будет отрывать голову от этого приложения в течение 1 минуты</string>
+    <string name="heads_up_snooze_summary_one_minute">Проведите пальцем вверх на уведомления о просмотре будет отрывать голову от этого приложения в течение 1 минуты</string>
     <string name="heads_up_snooze_summary">Проведите пальцем вверх по уведомлениям о просмотре, чтобы отложить заголовки из этого приложения на  <xliff:g id="number">%d</xliff:g> минут</string>
     <string name="heads_up_snooze_disabled_summary">Таймер повтора отключен</string>
     <string name="heads_up_snooze_1min">1 минута</string>
@@ -775,7 +775,7 @@
     <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки, когда включен игровой режим</string>
     <string name="gaming_mode_brightness_title">Отключить автоматическую яркость</string>
     <string name="gaming_mode_brightness_summary">Блокировка яркости экрана при включенном игровом режиме</string>
-    <string name="gaming_mode_ringer_title">Звонарь в игровом режиме</string>
+    <string name="gaming_mode_ringer_title">Звук в игровом режиме</string>
     <string name="gaming_mode_ringer_off_title">Не изменять</string>
     <string name="gaming_mode_ringer_vibrate_title">Вибрировать</string>
     <string name="gaming_mode_ringer_dnd_title">Не беспокоить</string>
