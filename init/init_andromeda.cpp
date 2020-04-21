@@ -52,6 +52,13 @@ void property_override(char const prop[], char const value[])
     else
         __system_property_add(prop, strlen(prop), value, strlen(value));
 }
+void property_override_triple(char const product_prop[], char const system_prop[], char const vendor_prop[],
+    char const value[])
+{
+    property_override(product_prop, value);
+    property_override(system_prop, value);
+    property_override(vendor_prop, value);
+}
 
 void sfn_hack()
 {
@@ -70,4 +77,8 @@ void sfn_hack()
 void vendor_load_properties()
 {
     sfn_hack();
+	
+// fingerprint
+    property_override("ro.build.description", "coral-user 10 QQ2A.200405.005 6254899 release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
 }
