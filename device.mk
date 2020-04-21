@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
+# OPScreenRecord
+PRODUCT_PACKAGES += \
+    OPScreenRecord
+
 # Device-specific settings
 #PRODUCT_PACKAGES += \
 #    DeviceSettings \
