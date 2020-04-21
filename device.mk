@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
 
+# Shims
+PRODUCT_PACKAGES += \
+    camera_shim
+
 # Codec2
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
