@@ -1,16 +1,37 @@
-# Dalvik
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES +=  \
+    aaudio.hw_burst_min_usec=2000 \
+    aaudio.mmap_exclusive_policy=2 \
+    aaudio.mmap_policy=2 \
+    af.fast_track_multiplier=1 \
+    audio.deep_buffer.media=true \
+    audio.offload.video=true \
+    camera.disable_zsl_mode=true \
     dalvik.vm.heapmaxfree=8m \
     dalvik.vm.heapminfree=512k \
     dalvik.vm.heapsize=512m \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heaptargetutilization=0.75 \
-    ro.dalvik.vm.native.bridge=0
-
-# Audio
-PRODUCT_PROPERTY_OVERRIDES += \
-    af.fast_track_multiplier=1 \
-    audio.offload.video=true \
+    debug.egl.hw=0 \
+    debug.mdpcomp.logs=0 \
+    debug.sf.hw=0 \
+    debug.sf.latch_unsignaled=1 \
+    debug.stagefright.ccodec=1 \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
+    debug.stagefright.omx_default_rank=0 \
+    drm.service.enabled=true \
+    keyguard.no_require_sim=true \
+    persist.backup.ntpServer=0.pool.ntp.org \
+    persist.demo.hdmirotationlock=false \
+    persist.radio.multisim.config=ssss \
+    persist.sys.job_delay=true \
+    persist.sys.labtest_flag=false \
+    persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
+    persist.sys.offlinelog.kernel=false \
+    persist.sys.offlinelog.logcat=false \
+    persist.sys.qseelogd=true \
+    persist.sys.sf.color_saturation=1.0 \
+    persist.vendor.camera.ois.disable=1 \
+    persist.vendor.camera.eis.enable=0 \
     persist.vendor.audio.avs.afe_api_version=2 \
     persist.vendor.audio.button_jack.profile=volume \
     persist.vendor.audio.button_jack.switch=0 \
@@ -21,10 +42,38 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.ras.enabled=false \
     persist.vendor.audio.spv3.enable=true \
     persist.vendor.audio.voicecall.speaker.stereo=true \
+    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
+    persist.vendor.bt.aac_frm_ctl.enabled=true \
+    persist.vendor.df.extcolor.proc=0 \
+    persist.vendor.max.brightness=0 \
+    persist.vendor.qcomsysd.enabled=1 \
+    persist.vendor.qfp=false \
+    persist.vendor.radio.apm_sim_not_pwdn=1 \
+    persist.vendor.radio.custom_ecc=1 \
+    persist.vendor.radio.rat_on=combine \
+    persist.vendor.radio.sib16_support=1 \
+    ro.af.client_heap_size_kbyte=7168 \
     ro.audio.soundtrigger.lowpower=true \
     ro.audio.soundtrigger=sva \
-    ro.config.media_vol_steps=25 \
+    ro.carrier=unknown \
+    ro.cit.nonrootbuild=true \
+    ro.cit.stablebuild=true \
+    ro.com.android.dataroaming=true \
+    ro.config.alarm_alert=Alarm_Classic.ogg \
+    ro.config.notification_sound=pixiedust.ogg \
+    ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.vc_call_vol_steps=11 \
+    ro.control_privapp_permissions=log \
+    ro.crypto.allow_encrypt_override=true \
+    ro.crypto.volume.filenames_mode=aes-256-cts \
+    ro.dalvik.vm.native.bridge=0 \
+    ro.frp.pst=/dev/block/bootdevice/by-name/frp \
+    ro.hardware.keystore_desede=true \
+    ro.opengles.version=196610 \
+    ro.se.type=HCE,UICC \
+    ro.sf.lcd_density=440 \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.has_wide_color_display=true \
     ro.vendor.audio.game.effect=true \
     ro.vendor.audio.recording.hd=true \
     ro.vendor.audio.sdk.fluencetype=fluence \
@@ -48,6 +97,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.us.proximity=true \
     ro.vendor.audio.voice.volume.boost=manual \
     ro.vendor.df.effect.conflict=1 \
+    ro.vendor.display.cabl=0 \
+    ro.vendor.extension_library=libqti-perfd-client.so \
+    sys.haptic.down.normal=1 \
+    sys.haptic.down.strong=5 \
+    sys.haptic.down.weak=0 \
+    sys.haptic.runin=13 \
     sys.vendor.shutdown.waittime=500 \
     vendor.audio.adm.buffering.ms=6 \
     vendor.audio.dolby.ds2.enabled=false \
@@ -55,7 +110,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.enable.mirrorlink=false \
     vendor.audio.flac.sw.decoder.24bit=true \
     vendor.audio.hal.output.suspend.supported=false \
-    vendor.audio.hw.aac.encoder=false \
+    vendor.audio.hw.aac.encoder=true \
     vendor.audio.noisy.broadcast.delay=600 \
     vendor.audio.offload.buffer.size.kb=32 \
     vendor.audio.offload.gapless.enabled=true \
@@ -71,44 +126,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.audio_hal.in_period_size=144 \
     vendor.audio_hal.period_multiplier=3 \
-    vendor.audio_hal.period_size=192
-
-# AudioFlinger client heap size
-PRODUCT_PACKAGES += \
-    audio.deep_buffer.media=true \
-    ro.af.client_heap_size_kbyte=7168
-
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.qcom.bluetooth.soc=cherokee \
-    persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
-    persist.vendor.bt.aac_frm_ctl.enabled=true
-
-# Codec2
-PRODUCT_PACKAGES += \
-    debug.stagefright.ccodec=1
-
-# CAMERA
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.camera.ois.disable=1 \
-    persist.vendor.camera.eis.enable=0 \
-    camera.disable_zsl_mode=true
-
-# Crypto
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.crypto.allow_encrypt_override=true \
-    ro.crypto.volume.filenames_mode=aes-256-cts
-
-# Display
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=0 \
-    debug.mdpcomp.logs=0 \
-    debug.sf.hw=0 \
-    debug.sf.latch_unsignaled=1 \
-    persist.sys.sf.color_saturation=1.0 \
-    ro.opengles.version=196610 \
-    ro.vendor.display.cabl=0 \
-    ro.sf.lcd_density=440 \
+    vendor.audio_hal.period_size=192 \
     vendor.display.comp_mask=0 \
     vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0 \
     vendor.display.disable_decimation=1 \
@@ -121,84 +139,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_null_display=0 \
     vendor.gatekeeper.disable_spu=true \
     vendor.gralloc.disable_ubwc=0 \
-    vendor.power.pasr.enabled=true
-
-# DRM
-PRODUCT_PROPERTY_OVERRIDES += \
-    drm.service.enabled=true
-
-# FRP
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
-# GPS/GNSS
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.backup.ntpServer=0.pool.ntp.org
-
-# Haptic
-PRODUCT_PACKAGES += \
-    sys.haptic.down.normal=1 \
-    sys.haptic.down.strong=5 \
-    sys.haptic.down.weak=0 \
-    sys.haptic.runin=13
-
-# Keystore
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.keystore_desede=true
-
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.stagefright.omx_default_rank.sw-audio=1 \
-    debug.stagefright.omx_default_rank=0
-
-# Offlinelog
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.offlinelog.kernel=false \
-    persist.sys.offlinelog.logcat=false
-
-# Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so
-
-# Radio Options
-PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    persist.radio.multisim.config=ssss \
-    persist.vendor.radio.apm_sim_not_pwdn=1 \
-    persist.vendor.radio.custom_ecc=1 \
-    persist.vendor.radio.rat_on=combine \
-    persist.vendor.radio.sib16_support=1 \
-    ro.com.android.dataroaming=true
-
-# Ringtone configs
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.alarm_alert=Alarm_Classic.ogg \
-    ro.config.notification_sound=pixiedust.ogg \
-    ro.config.ringtone=Ring_Synth_04.ogg
-
-# SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.has_wide_color_display=true
-
-# Vo-ip
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.voice.path.for.pcm.voip=true \
-    vendor.audio.feature.compr_voip.enable=true
-
-# Other
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.demo.hdmirotationlock=false \
-    persist.sys.job_delay=true \
-    persist.sys.labtest_flag=false \
-    persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
-    persist.sys.qseelogd=true \
-    persist.vendor.df.extcolor.proc=0 \
-    persist.vendor.max.brightness=0 \
-    persist.vendor.qcomsysd.enabled=1 \
-    persist.vendor.qfp=false \
-    ro.carrier=unknown \
-    ro.cit.nonrootbuild=true \
-    ro.cit.stablebuild=true \
-    ro.control_privapp_permissions=log \
-    ro.se.type=HCE,UICC
+    vendor.power.pasr.enabled=true \
+    vendor.qcom.bluetooth.soc=cherokee \
+    vendor.voice.path.for.pcm.voip=false \
