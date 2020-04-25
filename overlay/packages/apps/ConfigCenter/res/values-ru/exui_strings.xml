@@ -22,7 +22,7 @@
     <string name="lockscreen_category">Экран блокировки</string>
     <string name="uituner_category">Интерфейс</string>
     <string name="notifications_category">Уведомления</string>
-    <string name="navigation_category">Навигация &amp; кнопки</string>
+    <string name="navigation_category">Навигация кнопки</string>
     <string name="about_category">О проекте</string>
 
     <!-- Sub categories -->
@@ -158,7 +158,7 @@
     <string name="uituner_subtitle">Кастомизация пользовательского интерфейса</string>
     <string name="enable_clear_all_button">Заменить "очистить все" классной кнопкой</string>
     <string name="enable_clear_all_button_summary">Показывать кнопку для очистки уведомлений вместо текста</string>
-    <string name="blur_quicksettings">Размытие в уведомлениях (beta)</string>
+    <string name="blur_quicksettings">Размытие в уведомлениях</string>
     <string name="blur_quicksettings_subtitle">Размывает фон в быстрых настройках</string>
     <string name="qs_datausage_title">Использование траффика в заголовке быстрых настроек</string>
     <string name="qs_datausage_subtitle">Показывает использование траффика в заголовке быстрых настроек</string>
@@ -225,7 +225,7 @@
     <string name="torch_power_button_gesture_dt_toast">Переход к камере тем же жестом теперь выключен</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие на кнопку питания</string>
 
-    <string name="brightness_slider_qs_unexpanded">MIUI стиль слайдера яркости (beta)</string>
+    <string name="brightness_slider_qs_unexpanded">MIUI стиль слайдера яркости</string>
     <string name="brightness_slider_qs_unexpanded_summary">Показывать слайдер ниже быстрых настроек</string>
 
     <string name="qs_bg_use_new_tint"> Цвета плиток Exui</string>

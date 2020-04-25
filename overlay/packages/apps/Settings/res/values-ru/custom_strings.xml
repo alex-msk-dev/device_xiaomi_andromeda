@@ -65,6 +65,6 @@
     <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами, чтобы сделать скриншот</string>
 
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Связь громкость звонка и уведомлений</string>
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
 
 </resources>
