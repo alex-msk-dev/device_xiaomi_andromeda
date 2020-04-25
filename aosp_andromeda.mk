@@ -21,7 +21,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 
 # Version
-CUSTOM_BUILD_TYPE := by.alex.msk
+CUSTOM_BUILD_TYPE := Final
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_andromeda
