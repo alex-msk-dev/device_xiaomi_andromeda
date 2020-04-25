@@ -215,9 +215,8 @@ persist.data.df.mux_count=8
 persist.data.df.iwlan_mux=9
 persist.data.df.dev_name=rmnet_usb0
 
-#property to enable user to access Google WFD settings
+# Wireless display
 persist.debug.wfd.enable=1
-##property to choose between virtual/external wfd display
 persist.sys.wfd.virtual=0
 
 #property to enable HWC for VDS
@@ -231,6 +230,9 @@ audio.offload.buffer.size.kb=32
 
 #Enable offload audio video playback by default
 av.offload.enable=true
+
+#enable voice path for PCM VoIP by default
+use.voice.path.for.pcm.voip=true
 
 # system prop for NFC DT
 ro.nfc.port=I2C
