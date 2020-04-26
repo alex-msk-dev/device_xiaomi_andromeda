@@ -115,6 +115,9 @@ TARGET_USE_QTI_BT_STACK := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+# Camera shim
+TARGET_LD_SHIM_LIBS := /vendor/lib64/camera/components/com.altek.node.distortioncorrection.so|com.altek.node.distortioncorrection_shim.so
+
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
