@@ -20,6 +20,10 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer := alex.msk
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_andromeda
 PRODUCT_DEVICE := andromeda
