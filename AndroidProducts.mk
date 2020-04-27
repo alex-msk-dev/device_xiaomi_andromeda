@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_andromeda.mk
+    $(LOCAL_DIR)/havoc_andromeda.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_andromeda-user \
-    aosp_andromeda-userdebug
+    havoc_andromeda-user \
+    havoc_andromeda-userdebug
